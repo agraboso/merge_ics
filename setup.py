@@ -22,7 +22,7 @@ setup(
   url = 'https://github.com/agraboso/merge_ics',
   platforms = ['any'],
   install_requires = [
-    'yaml >3',
+    'PyYAML >3',
     'requests >2.7.0',
     'icalendar >=3.9.0, <=4'
     ],
