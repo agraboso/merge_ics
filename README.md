@@ -3,16 +3,16 @@ merge_ics
 
 A simple Python script to merge [RFC5545](https://tools.ietf.org/html/rfc5545) calendar files. It accepts several input calendars (referred to as *sources*) and processes them into one or more output calendar (*sinks*).
 
-## Dependencies
+## Installation
 
 ```
-pip install yaml requests icalendar
+pip install merge_ics
 ```
 
 ## Usage
 
 ```
-python merge_ics.py <config_file>
+merge_ics <config_file>
 ```
 
 ## Config file format
