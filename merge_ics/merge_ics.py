@@ -44,7 +44,7 @@ def main():
   # Get the name of the config file
   if len(sys.argv) != 2:
     print 'Usage:'
-    print '  python merge-ics.py <config_file>'
+    print '  merge-ics <config_file>'
     return 1
   config_file = sys.argv[1]
 
