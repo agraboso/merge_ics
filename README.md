@@ -6,13 +6,13 @@ A simple Python script to merge [RFC5545](https://tools.ietf.org/html/rfc5545) c
 ## Installation
 
 ```
-pip install merge_ics
+$ pip install merge_ics
 ```
 
 ## Usage
 
 ```
-merge_ics <config_file>
+$ merge_ics <config_file>
 ```
 
 ## Config file format
