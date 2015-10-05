@@ -18,6 +18,7 @@ $ merge_ics <config_file>
 ## Config file format
 
 `merge_ics` reads configuration from YAML files passed through the command line as above. These YAML files should contain two nodes:
+
 - `sources` specifies the input calendars, and
 - `sinks` describes the calendars that should be outputted by the script.
 
