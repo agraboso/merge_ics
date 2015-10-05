@@ -24,7 +24,7 @@ setup(
   install_requires = [
     'yaml >3',
     'requests >2.7.0',
-    'icalendar >=3.9.0 <=4'
+    'icalendar >=3.9.0, <=4'
     ],
   packages = ['merge_ics'],
   entry_points = {
