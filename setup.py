@@ -23,7 +23,7 @@ setup(
   platforms = ['any'],
   install_requires = [
     'PyYAML >3',
-    'requests >2.7.0',
+    'requests >=2.7.0',
     'icalendar >=3.9.0, <=4'
     ],
   packages = ['merge_ics'],
