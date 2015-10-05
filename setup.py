@@ -28,12 +28,12 @@ setup(
     ],
   packages = ['merge_ics'],
   entry_points = {
-    'console_scripts': ['merge_ics = merge_ics:main']
+    'console_scripts': ['merge_ics = merge_ics.merge_ics:main']
     },
   include_package_data = True,
   long_description = read_md('README.md'),
   classifiers = [
-    'Programming Language :: Python', ## Python versions?
+    'Programming Language :: Python',
     'Development Status :: 4 - Beta',
     'Environment :: Console',
     'Operating System :: OS Independent',
