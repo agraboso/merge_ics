@@ -51,6 +51,7 @@ sinks:
     sources:
       1: Local Events
     options:
+      version: 2.0
       prodid: -//Owner//LocalEvents//EN
       x-wr-calname: Local Events
       x-wr-caldesc: Events from my local calendar
@@ -64,6 +65,7 @@ sinks:
       online_cal: Online Events
       2: Another Category
     options:
+      version: 2.0
       prodid: -//Owner//Merged//EN
       x-wr-calname: Merged Calendar
       x-wr-caldesc: All my events
