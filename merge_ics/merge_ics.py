@@ -40,10 +40,10 @@ def write_calendar(options, sources, filename):
             if timezone['tzid'] not in timezones_cache:
                 timezones_cache.append(timezone['tzid'])
                 cal.add_component(timezone)
-    for event in in_cals[source_id].walk('VEVENT'):
-        event_copy = Event(event)
-        event_copy.add('categories', category)
-        cal.add_component(event_copy)
+        for event in in_cals[source_id].walk('VEVENT'):
+            event_copy = Event(event)
+            event_copy.add('categories', category)
+            cal.add_component(event_copy)
     with open(filename, 'w') as f:
         f.write(cal.to_ical())
 
