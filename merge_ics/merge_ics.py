@@ -44,7 +44,7 @@ def write_calendar(options, sources, filename):
             event_copy = Event(event)
             event_copy.add('categories', category)
             cal.add_component(event_copy)
-    with open(filename, 'w') as f:
+    with open(filename, 'wb') as f:
         f.write(cal.to_ical())
 
 
